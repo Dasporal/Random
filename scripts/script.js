@@ -7,6 +7,7 @@ $(document).ready(function () {
 });
 
 function spongebobMeme(input, output) {
+    input = input.toLowerCase();
     var strOutput = "";
     for(var i = 0; i<input.length;i++){
         if(i%2!=0) strOutput= strOutput + input[i].toUpperCase();
