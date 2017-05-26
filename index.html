@@ -1,12 +1,57 @@
 <!doctype html>
 <html>
+
 <head>
   <meta charset="utf-8">
   <title>Dasp's random trash</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/css/materialize.min.css">
   <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
-T r a s h
-<script src="scripts/script.js"></script>
+  <div class="row">
+    <section class=" deep-purple darken-2" id="head">
+      <div class="center-align">
+        <h1>Random projects</h1>
+        <div class="subtitle">Everything here is useless.</div>
+      </div>
+    </section>
+  </div>
+  <div class="container">
+    <div class="row">
+      <h4>Projects</h4>
+      <a class="waves-effect waves-light btn" href="#spongebob">Spongebob text meme</a>
+      <div id="spongebob" class="modal">
+        <div class="modal-content">
+          <div class="row">
+            <h4>Spongebob text meme</h4>
+            <div class="input-field col s1">
+              <p>Input : </p>
+            </div>
+            <div class="input-field col s11">
+              <input id="spongebobInput" type="text" class="validate">
+              <label for="spongebobInput">String</label>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col s1">
+              <p>Output : </p>
+            </div>
+            <div class="col s11">
+              <p id="spongebobOutput"></p>
+            </div>
+          </div>
+          <div class="row">
+            <a class="waves-effect waves-light btn" id="spongebobConvert">Convert</a>
+            <a class="waves-effect waves-light btn" id="spongebobConvert">Python</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/js/materialize.min.js"></script>
+  <script src="scripts/script.js"></script>
 </body>
+
 </html>
